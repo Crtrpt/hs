@@ -8,7 +8,11 @@ chmod +x hs
 ```
 
 运行
-
+liunx
 ```
-.\hs.exe --addr=:8082 --root=public
+hs --addr=:8082 --root=public
+```
+windows
+```
+hs.exe --addr=:8082 --root=public
 ```
