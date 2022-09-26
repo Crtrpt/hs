@@ -1,13 +1,14 @@
 # http server 小工具 快速启动一个 http静态文件服务器
 
 
-下载
+下载可执行文件之后放到系统环境目录
+给与可执行权限 
 ```
-
+chmod +x hs
 ```
 
 运行
 
 ```
-
+.\hs.exe --addr=:8082 --root=public
 ```
