@@ -1,6 +1,7 @@
-# http server hs
+# hs
 
 快速启动一个 http静态文件服务器
+如果需要复杂的功能 请去用 nginx apache 或许 caddy
 
 
 ## 下载
