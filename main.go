@@ -32,7 +32,7 @@ func main() {
 		} else {
 			_, err := io.Copy(w, file)
 			if err != nil {
-				fmt.Errorf("file copy error", err)
+				fmt.Errorf("file copy error %v", err)
 			}
 		}
 		fmt.Printf("[%s] %v \r\n", time.Now().Format("2006-01-02 15:04:05"), filePath)
