@@ -3,6 +3,7 @@
 
 ## 下载
 
+https://github.com/Crtrpt/http-server/releases
 
 可执行文件之后放到系统环境目录
 给与可执行权限 
