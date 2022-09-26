@@ -42,5 +42,8 @@ func main() {
 	fmt.Printf("index: %v \r\n", *index)
 
 	// listen to port
-	http.ListenAndServe(*addr, nil)
+	err := http.ListenAndServe(*addr, nil)
+	if err != nil {
+		fmt.Printf("server error: %v \r\n", err)
+	}
 }
