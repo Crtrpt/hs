@@ -1,4 +1,4 @@
-module test.com/start1
+module crtrpt.com/hs
 
 go 1.19
 
